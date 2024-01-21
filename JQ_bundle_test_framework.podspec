@@ -32,6 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'JQ_bundle_test_framework/Classes/**/*'
   
+  s.user_target_xcconfig = {
+    'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+
   # s.resource_bundles = {
   #   'JQ_bundle_test_framework' => ['JQ_bundle_test_framework/Assets/*.png']
   # }
