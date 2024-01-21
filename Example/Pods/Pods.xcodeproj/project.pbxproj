@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30A47682392EB3A11321D9AF82980501 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AED5903006828AB95E1747ECADE8EB0 /* ReplaceMe.m */; };
 		500AC6C761049C912E7D1046D5A7401A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		505A7C987E06A923496C47021170451E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		67CCD75BCF7FFC56AC082ACD0D81C15E /* Pods-JQ_bundle_test_framework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD65EA3376A14A4317F4E793D609EAD /* Pods-JQ_bundle_test_framework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,7 +44,6 @@
 		43574684DDBCF9A48ADEA2B65C24C056 /* Pods-JQ_bundle_test_framework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQ_bundle_test_framework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		452FCA9C6F4844B9E37548B883896B88 /* Pods-JQ_bundle_test_framework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQ_bundle_test_framework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B09BF55B6FE2DD006E367C3D064A002 /* JQ_bundle_test_framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JQ_bundle_test_framework.modulemap; sourceTree = "<group>"; };
-		5AED5903006828AB95E1747ECADE8EB0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JQ_bundle_test_framework/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		69BFF7B7E69816B28A503297C8C7DB95 /* Pods-JQ_bundle_test_framework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQ_bundle_test_framework_Example-Info.plist"; sourceTree = "<group>"; };
 		69E08A5183A040EDB873A1983CC7DAC5 /* Pods-JQ_bundle_test_framework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JQ_bundle_test_framework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		712C79F74DFF55C7CA3094B4E7A36DA5 /* Pods-JQ_bundle_test_framework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQ_bundle_test_framework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,7 +205,6 @@
 		DC7EC9D73F793EAFA052BBB57CD10BA4 /* JQ_bundle_test_framework */ = {
 			isa = PBXGroup;
 			children = (
-				5AED5903006828AB95E1747ECADE8EB0 /* ReplaceMe.m */,
 				DBC267F38F462B3461779FB35020D9C6 /* Pod */,
 				BD121F7DF650C6AC4D1F98FDE55B74CF /* Support Files */,
 			);
@@ -384,7 +381,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C579290EDC90E399122939B8B063F0AE /* JQ_bundle_test_framework-dummy.m in Sources */,
-				30A47682392EB3A11321D9AF82980501 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
