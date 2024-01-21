@@ -1,0 +1,6 @@
+framework module JQ_bundle_test_framework {
+  umbrella header "JQ_bundle_test_framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

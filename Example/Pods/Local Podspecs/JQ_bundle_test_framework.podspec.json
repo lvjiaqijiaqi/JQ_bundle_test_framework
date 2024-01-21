@@ -1,0 +1,22 @@
+{
+  "name": "JQ_bundle_test_framework",
+  "version": "0.1.0",
+  "summary": "A short description of JQ_bundle_test_framework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lvjiaqi/JQ_bundle_test_framework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lvjiaqi": "405164649@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lvjiaqi/JQ_bundle_test_framework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JQ_bundle_test_framework/Classes/**/*"
+}
